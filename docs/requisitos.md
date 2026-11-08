@@ -1,12 +1,10 @@
-# Mãos Solidárias Digital (MVP)
+# Requisitos funcionais
 
-Sistema web para controle de entregas e estoque de cestas básicas.
-
-## Problema
-O controle de famílias, doações e cestas é feito em cadernos e WhatsApp, o que causa entregas duplicadas e perda de itens por validade.
-
-## Objetivo
-Evitar entregas duplicadas e desperdício de alimentos (ODS 2, Fome Zero).
-
-## Tecnologias previstas
-Angular (PWA), Python com FastAPI e PostgreSQL.
+- RF01: autenticar usuários por email e senha
+- RF02: cadastrar famílias
+- RF03: registrar entrega de cesta
+- RF04: recusar segunda entrega à mesma família no mesmo mês
+- RF05: registrar entradas e saídas de estoque
+- RF06: alertar itens perto do vencimento
+- RF07: relatório mensal
+- RF08: registrar entregas offline e sincronizar
